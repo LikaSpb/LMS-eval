@@ -1,0 +1,17 @@
+Table etudiant : 
+Etudiant (id, nom, prenom, email, mot_de_passe, photo)
+
+Table session : 
+Session (id, nom)
+
+Table cours :
+Cours (id, nom, date_debut, date_fin, session_id)
+
+Table formateur : 
+Formateur (id, nom, prenom, email, mot_de_passe)
+
+Table evaluation : 
+Evaluation (id, type, formateur_id, cours_id)
+
+Table note : 
+Note (id, valeur, etudiant_id, evaluation_id)
